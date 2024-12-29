@@ -6,8 +6,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "rubik": ["Rubik-Regular", "sans-serif"],
-        "rubik-bold": ["Rubik-Bold", "sans-serif"]
+        rubik: ["Rubik-Regular", "sans-serif"],
+        "rubik-bold": ["Rubik-Bold", "sans-serif"],
+        "rubik-extraBold": ["Rubik-ExtraBold", "sans-serif"],
+        "rubik-light": ["Rubik-Light", "sans-serif"],
+        "rubik-medium": ["Rubik-Medium", "sans-serif"],
+        "rubik-semiBold": ["Rubik-SemiBold", "sans-serif"],
       },
         colors: {
           primary: {
