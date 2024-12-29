@@ -17,6 +17,8 @@ import { Redirect } from "expo-router";
 const SignIn = () => {
   const { refetch, loading, isLoggedIn } = useGlobalContext();
 
+  console.log("refetch: ", refetch, "loading: ", loading, "logged in status: ", isLoggedIn)
+
   if (!loading && isLoggedIn) {
     return <Redirect href={"/"} />
   }
